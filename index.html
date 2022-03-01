@@ -25,79 +25,102 @@
 		<title>Shaunelle's Class Site</title>
         <!-- My Personal Stylesheet -->
 		<link rel="stylesheet" href="style.css"/>
-
+        
+       
 	</head>
 
 	<body>
 		<!-- Welcome to EDPS 6560 Week 2 - 
             This is an example comment!
         -->
-           
-        <div id="sec_nav">
-			<ul>
-				<li><a href="#sec_about">About Me</a></li>
-				<li><a href="#sec_exp">Experience</a></li>
-                <li><a href="#sec_edu">Education</a></li>
-				<li><a href="https://sreckman.weebly.com/" target="_blank">Portfolio</a></li>
-							</ul>
-		</div>
-		
-			<h1><strong>Shaunelle R. Eckman</strong></h1>
+        
+      <div class="container-fluid">
+  <div class="row align-items-start">	
+    <div class="col-8">
+        <h1><strong>Shaunelle R. Eckman</strong></h1>
+      </div>
+   
+    <div class="col-4align-items-right">
+         <a href="contact.html"><button type="button" class="btn btn-outline-dark">Contact Me</button></a>
+    </div>
+  </div>
+  
+            
+              
+              <nav class="navigation">
+                  <div class="row row-cols-4">
 			
-            			
-			</div>
-        
-		
-        
-        <a href="contact.html"><button type="button" class="btn btn-outline-dark">Contact Me</button></a>
-					
-        
-        <!-- Start About Me Section -->
+                <div class="col"><li><a href="#sec_about">About Me</a></li></div>
+                <div class="col"><li><a href="#sec_exp">Experience</a></li></div>
+                <div class="col"><li><a href="#sec_edu">Education</a></li></div>
+                <div class="col"><li><a href="https://sreckman.weebly.com/" target="_blank">Portfolio</a></li></div>
+            
+                      </div>
+                  </nav>
+         		   
+             
+ 
+    
+        <div class="row">          
+                <div class="col">
+      <!-- Start About Me Section -->
 			<div id="sec_about">
             <h2>About Me</h2>
-			<img src="img/Gunslinger.jpg" alt="Gunslinger" height="300" width="auto" />
+                <p>Passionate about helping others use technologies to make life and health care managemnt easier</p>
+			<img src="img/Gunslinger.jpg" alt="Gunslinger" height="200" width="auto" />
 			            
-            			
-				<p>Passionate about helping others use technologies to make life and health care managemnt easier</p>
-	
-
-<p> | Content Creation | Content Management | Web Design | Web Technology | </p>
-			
-		</div>
-	
-        
-		<!-- End About Me Section -->
+    </div>
+    </div>
+    </div>
+    
+         <div class="row">             
+         <div class="col">
+      <p>Content Creation | Content Management | Web Design | Web Technology</p>
+    </div>
+            </div>
+                    
+     
+       <!-- End About Me Section -->
 		
 			
             
             <!-- Start Experience Section -->
+    
             <div id="sec_exp">
+                 <div class="row">
+                     <div class="col">
 			<h2>Experience</h2>
-			<p>More than 25 Years in IT and IT Project Managment Roles</p>
-             <p>Senior Technology Specialist - <a href="https://www.mecialhomeportal.org" target="_blank">Medical Home Portal</a> - Department of Pediatrics - University Utah</p>
+			<p class="p2">More than 25 Years in IT and IT Project Managment Roles</p>
+             <p class="p2">Senior Technology Specialist - <a href="https://www.mecialhomeportal.org" target="_blank">Medical Home Portal</a> - Department of Pediatrics - University Utah</p>
             
-			<p>The Medical Home Portal is a unique source of reliable information about children and youth with special health care needs (CYSHCN), offering a “one-stop shop” for their:
+			<p class="p2">The Medical Home Portal is a unique source of reliable information about children and youth with special health care needs (CYSHCN), offering a “one-stop shop” for their:</p>
 
 <ul>
     <li>Families</li>
 <li>Physicians and Medical Home teams</li>
 <li>Other Professionals and Caregivers</li>
     </ul>
-			</p>
+			
 		</div>
+          </div>
+        </div>
+
         
 		<!-- End Experience Section -->
             
             <!-- Start Education Section -->
         <div id="sec_edu">
-			
+		 <div class="row">
+             <div class="col">
         <h2>Education</h2>
 			
-           			<p>Graduate Student M.Ed - Instructional Design and Educational Technology - Universtiy of Utah</p>
-            <p>BS - Community & Consumer Studies - University of Utah</p>
-		</div>
-        
-		<!-- End Education Section -->
+           			<p class="p2">Graduate Student M.Ed - Instructional Design and Educational Technology - Universtiy of Utah</p>
+            <p class="p2">BS - Community & Consumer Studies - University of Utah</p>
+		
+        		<!-- End Education Section -->
+</div>
+             </div>
+            </div>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
