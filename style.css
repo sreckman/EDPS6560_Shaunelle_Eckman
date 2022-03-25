@@ -11,7 +11,7 @@
 	
     /* Colors */
 	--main-color-lilac:  #D7B4F3;
-	--main-color-white: #e9f0f2;
+	--main-color-white: #fff;
 	--main-color-black: #0d0d0d;
 	--main-color-light: #5ef2ad;
 	--main-color-purple: purple;
@@ -46,8 +46,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
 html {
     background: purple;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
-    -webkit-font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
 }
 
 
@@ -60,7 +59,7 @@ html {
 }
 
 body {
-    background: #D7B4F3;
+    background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: Helvetica, Arial, sans-serif;
@@ -73,7 +72,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: #fff;
+    color: purple;
     font-weight: 600;
     line-height: 1.3;
 }
@@ -108,9 +107,9 @@ p {
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    border: 10px solid purple;
+    border: 10px dotted purple;
         display: block;
-    margin: 1.3em auto;
+    margin: 1.5em auto;
     max-width: 95%;
     border-radius: 50%;
 }
