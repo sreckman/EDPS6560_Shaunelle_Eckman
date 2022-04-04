@@ -1,0 +1,45 @@
+
+.flexbox-container {
+   height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+   }
+
+.flexbox-item {
+    width: auto;
+    margin: 10px;
+    border: 5px dotted #e33293;
+    
+}
+
+.flexbox-item-1 {
+  min-height: auto;
+    min-width: 500px;
+       text-align: center;
+   
+}
+ 
+.flexbox-item-2 {
+  min-height: auto;
+   
+}
+
+.flexbox-item-3 {
+    min-height: auto;
+   
+
+.flexbox-item-4 {
+    min-height: auto;
+   
+}
+    
+.ptext {
+        margin-left: 10px;
+   
+    }

@@ -107,7 +107,7 @@ p {
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    border: 10px dotted purple;
+    border: 10px solid purple;
         display: block;
     margin: 1.5em auto;
     max-width: 95%;

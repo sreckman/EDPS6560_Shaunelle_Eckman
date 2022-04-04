@@ -4,6 +4,7 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+
 body {
     background: #D7B4F3;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
@@ -14,6 +15,7 @@ body {
     margin: 0 auto;
     max-width: 800px;
     padding: 2em 2em 4em;
+    height: 800px;
 }
 
 h1, h2, h3, h4, h5, h6 {
