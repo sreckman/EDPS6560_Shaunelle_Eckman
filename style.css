@@ -107,11 +107,12 @@ p {
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    border: 10px solid purple;
+    border: 5px solid;
+    border-color: #D7B4F3;
         display: block;
     margin: 1.5em auto;
     max-width: 95%;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 @keyframes colorize {
