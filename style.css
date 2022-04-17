@@ -1,21 +1,12 @@
 
-
-/* CSS Reference from W3School: https://www.w3schools.com/cssref/ */
-
-/* Example Variables */
 :root {
-	/* Fonts */
-	--main-font-primary: "Roboto", sans-serif;
-	--main-font-secondary: "Montserrat", sans-serif;
-	--main-font-tertiary: "Comfortaa", cursive;
-	
+		
     /* Colors */
 	--main-color-lilac:  #D7B4F3;
 	--main-color-white: #fff;
 	--main-color-black: #0d0d0d;
-	--main-color-light: #5ef2ad;
 	--main-color-purple: purple;
-	--main-color-dark3: #769bb3;
+
 }
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -50,8 +41,13 @@ html {
 }
 
 
-
 .navigation {
+    display: flex;
+     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
   font-weight: 100;
   letter-spacing: 2px;
   padding: 20px;
@@ -62,7 +58,7 @@ body {
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
@@ -77,18 +73,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.3;
 }
 
-
-</style>
-</head>
-<body>
-
-
 h2 {
     margin-top: 1.3em;
 }
 
 a {
     color: purple;
+}
+
+a:hover {
+    color: darkmagenta;
 }
 
 b, strong {
@@ -107,16 +101,23 @@ p {
    background-color: #D7B4F3;
 }
 
+.btn:hover {
+    background-color: darkmagenta;
+}
 
 img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    border: 5px solid;
+    border: 5px dotted;
     border-color: #D7B4F3;
         display: block;
     margin: 1.5em auto;
     max-width: 95%;
     border-radius: 10%;
+}
+
+img:hover {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    
 }
 
 @keyframes colorize {

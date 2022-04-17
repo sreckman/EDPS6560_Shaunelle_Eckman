@@ -8,21 +8,20 @@
     align-items: center;
     align-content: center;
     background-color: #ffffff;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, sans-serif;
    }
 
 .flexbox-item {
     width: auto;
     margin: 10px;
     border: 5px dotted #D7B4F3;
-    padding: 10px
+    padding: 10px;
     
 }
 
 .flexbox-item-1 {
   min-height: auto;
-    min-width: 500px;
-       text-align: center;
+   text-align: center;
    
 }
  
@@ -43,7 +42,16 @@
 }
     
 .ptext {
-        margin-left: 10px;
-   padding: 10px;
+    margin-left: 10px;
+  
 }
-   
+
+img {
+    animation:rotate 3s 2;
+animation-timing-function: cubic-bezier(1,0,.5,1);
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(0deg) } 
+    to { -webkit-transform: rotate(360deg) } 
+}
