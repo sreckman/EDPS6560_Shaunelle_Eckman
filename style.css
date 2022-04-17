@@ -115,7 +115,7 @@ img {
     border-radius: 10%;
 }
 
-img:hover {
+img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     
 }
